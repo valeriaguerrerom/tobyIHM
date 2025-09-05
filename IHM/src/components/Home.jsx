@@ -60,7 +60,7 @@ function Home() {
 
       {/* Sobre mí */}
       <section className="about card-ui" id="about">
-        <h2>Sobre mí <span role="img" aria-label="paw">🐾</span></h2>
+        <h2>Sobre mí <span role="img" aria-label="paw"></span></h2>
         <p>
           Soy un <b>cocker spaniel</b> juguetón y cariñoso. Me encanta correr, jugar con mi pelota y recibir muchas caricias.<br />
           Vivo para los paseos largos y las siestas. <span className="highlight">¡Siempre estoy listo para jugar!</span>
@@ -86,7 +86,7 @@ function Home() {
 
       {/* Galería */}
       <section className="galeria card-ui" id="gallery">
-        <h2>Galería <span role="img" aria-label="camera">📸</span></h2>
+        <h2>Galería <span role="img" aria-label="camera"></span></h2>
         <div className="galeria-imagenes">
           <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=200&q=80" alt="Toby jugando" />
           <img src="https://assets.orvis.com/is/image/orvisprd/AdobeStock_110099855" alt="Toby en el parque" />
@@ -96,7 +96,7 @@ function Home() {
 
       {/* Equipo */}
       <section className="team card-ui" id="team">
-        <h2>Mi equipo <span role="img" aria-label="friends">👨‍👩‍👧</span></h2>
+        <h2>Mi equipo <span role="img" aria-label="friends"></span></h2>
         <div className="team-row">
           {equipo.map((d, i) => (
             <div key={d.name + i} className="team-card">
